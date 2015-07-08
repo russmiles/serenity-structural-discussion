@@ -18,7 +18,7 @@ public class ActualTestSteps {
         loginPage.enterUsernameAndSignIn();
     }
 
-    @Step("Given the user claims a task in inbox page")
+    @Step("And the user claims a task in inbox page")
     public void userHasClaimedATask() {
 
     }
