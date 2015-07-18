@@ -15,4 +15,13 @@ public class LoginPage extends PageObject {
     public void enterUsernameAndSignIn() {
 
     }
+    
+    public void find_elements (String elementId)
+    {
+    	if (elementId.equals("validElement"))
+    			System.out.println("Found Elemment");
+    	else
+    		
+    	throw new IllegalStateException("Illegal State Exception message");
+    }
 }
